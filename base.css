@@ -78,6 +78,14 @@ h1{
 h2{
     margin-left: 100px;
 }
+button{
+    margin-left: 95px;
+    margin-top: 10px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(34, 110, 147, 1);
+}
 
 /* ESTILIZAÇÃO DO RODAPÉ*/
 div.rodape{
