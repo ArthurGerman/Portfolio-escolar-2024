@@ -56,6 +56,31 @@ a.redes_sociais{
     color: rgba(34, 110, 147, 1);
 }
 
+/* CLASSES */
+.container{
+    display: flex;
+}
+.paragrafo{
+    float: left;
+    width: 50%;
+}
+.slide,.imagem{ /* Arquivos das áreas*/
+    float: right;
+    width: 50%;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    margin-left: 110px;
+}
+.conteudo{ /*Imagens de conteúdo(atividades, projetos, seminários, etc.)*/
+    border-radius: 1%;
+    border-style: none;
+    box-shadow: 2px 2px 4px gray;
+    margin-bottom: 100px;
+}
+
+
 
 hr{
     border: none;
@@ -93,7 +118,7 @@ div.rodape{
     color: whitesmoke;
     height: 80px;
     display: flex;
-    margin-top: 400px;
+    margin-top: 100px; 
     align-items: center;
     justify-content: center;
     margin-bottom: 0px;
