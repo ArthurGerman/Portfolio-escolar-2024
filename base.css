@@ -64,16 +64,16 @@ a.redes_sociais{
     float: left;
     width: 50%;
 }
-.slide,.imagem{ /* Arquivos das áreas*/
+.conteudo{ /* Arquivos das áreas. Esta classe aplica-se as divs*/
     float: right;
     width: 50%;
 }
 iframe{
     width: 500px;
     height: 300px;
-    margin-left: 110px;
+    margin-left: 130px;
 }
-.conteudo{ /*Imagens de conteúdo(atividades, projetos, seminários, etc.)*/
+.imagem{ /*Imagens de conteúdo(atividades, projetos, seminários, etc.). Esta classe aplica-se apenas à imagens.*/
     border-radius: 1%;
     border-style: none;
     box-shadow: 2px 2px 4px gray;
