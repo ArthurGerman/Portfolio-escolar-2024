@@ -1,5 +1,6 @@
 /* ESTILIZAÇÃO DO CORPO*/
 
+
 body{
     margin: 0;
     background-image: linear-gradient(to right, whitesmoke,rgb(209, 209, 209));
@@ -17,6 +18,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: left;
+}
+a,button{
+    cursor: pointer;
 }
 a.nav_link {
     margin-left: 35px;
@@ -56,6 +60,19 @@ a.redes_sociais{
     color: rgba(34, 110, 147, 1);
 }
 
+p.texto{
+    font-size: 18px;
+    margin-left: 110px;
+}
+h1{
+    margin-top: 50px;
+    margin-left: 85px;
+    font-size: 35px;
+}
+h2{
+    margin-left: 100px;
+}
+
 /* CLASSES */
 .container{
     display: flex;
@@ -68,6 +85,7 @@ a.redes_sociais{
     float: right;
     width: 50%;
 }
+
 iframe{
     width: 500px;
     height: 300px;
@@ -81,7 +99,7 @@ iframe{
 }
 
 
-
+/* ESTILIZAÇÃO DE ELEMENTOS*/
 hr{
     border: none;
     justify-content: center;
@@ -90,18 +108,6 @@ hr{
     box-shadow: 2px 2px 10px gray;
     margin-top: 60px;
     margin-bottom: 60px;
-}
-p.texto{
-    font-size: 18px;
-    margin-left: 110px;
-}
-h1{
-    margin-top: 50px;
-    margin-left: 85px;
-    font-size: 35px;
-}
-h2{
-    margin-left: 100px;
 }
 button{
     margin-left: 95px;
