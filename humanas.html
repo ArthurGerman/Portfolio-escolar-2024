@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Humanas</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="./js/carrossel.js" defer></script>
     <style>
         img.imagem{
             width: auto;
@@ -18,9 +20,6 @@
             height: 600px;
             width: auto;
             margin-left: 200px;
-        }
-        #juri{
-            margin-left: 60px;
         }
     </style>
 </head>
@@ -89,8 +88,16 @@
                 <a href="https://1drv.ms/b/s!Av8_6lRulzdc8UtLfRCE455WCl6z?e=KIlw5X" target="_blank"><button class="texto"><strong>Acessar discurso</strong></button></a>
             </div>
             <div class="conteudo">
-                <img src="https://onedrive.live.com/embed?resid=5C37976E54EA3FFF%2114509&authkey=%21ALJw04JtbcBERhA&width=2592&height=4608" alt="" class="imagem">
-                <img src="https://onedrive.live.com/embed?resid=5C37976E54EA3FFF%2114512&authkey=%21AAeIqv-B8u6Y80A&width=2592&height=4608" alt="" class="imagem" id="juri">
+                <div class="container-slider">
+                    <button id="prev-button"><img src="./img/arrow.png" alt=""></button>
+                    <div class="container-images">
+                        <img src="https://onedrive.live.com/embed?resid=5C37976E54EA3FFF%2114509&authkey=%21ALJw04JtbcBERhA&width=2592&height=4608" alt="" class="slider on">
+                        <img src="https://onedrive.live.com/embed?resid=5C37976E54EA3FFF%2114512&authkey=%21AAeIqv-B8u6Y80A&width=2592&height=4608" alt="" class="slider on">
+                        <img src="https://onedrive.live.com/embed?resid=5C37976E54EA3FFF%2114511&authkey=%21AIGjPLE9F8kNW2U&width=2592&height=4608" alt="" class="slider on">
+
+                    </div>
+                    <button id="next-button"><img src="./img/arrow.png" alt=""></button>
+                </div>
             </div>
         </div>
     </section>
