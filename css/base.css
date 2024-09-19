@@ -85,7 +85,7 @@ h2{
 }
 .paragrafo{
     float: left;
-    width: 50%;
+    width: 50% ;
 }
 .conteudo{ /* Arquivos das áreas. Esta classe aplica-se as divs*/
     float: right;
